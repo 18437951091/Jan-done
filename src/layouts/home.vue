@@ -7,3 +7,18 @@
     </div>
   </main>
 </template>
+<style scoped>
+main::before{
+  z-index: -2;
+  content: '';
+  position:fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(/images/triangle.svg);
+  background-size: 75%;
+  background-repeat: repeat;
+  opacity: 0.11;
+}
+</style>
